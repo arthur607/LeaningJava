@@ -11,6 +11,7 @@ public class Program {
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  //mask of time
         Calendar cal;
+        sdf.getCalendar();
         Post p1 = new Post(Calendar.getInstance(), "traveling,", "traveling to BR", "12");
 
         p1.addComments(c1);          //instancing commentary in object post
