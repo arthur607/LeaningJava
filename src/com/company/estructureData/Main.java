@@ -17,6 +17,15 @@ public class Main {
             carros.add(new equalsAndHashCode(sc.nextLine()));
             System.out.println(carros.get(i).marca);
         }
-        System.out.println(carros.contains(new equalsAndHashCode("ford")));
+       // System.out.println(carros.contains(new equalsAndHashCode("ford")));
+
+        Client c1 = new Client("arthur", "arthur@gmail.com");
+        Client c2 = new Client("arthur", "arthur@gmail.com");
+        System.out.println(c1.hashCode());
+        System.out.println(c2.hashCode());
+        System.out.println(c1.equals(c2));
     }
+
+
+
 }

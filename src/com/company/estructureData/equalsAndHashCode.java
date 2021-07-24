@@ -16,7 +16,7 @@ public class equalsAndHashCode {
     public equalsAndHashCode(String marca) {
         this.marca = marca;
     }
-
+gE
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
