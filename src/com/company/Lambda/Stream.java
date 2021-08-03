@@ -15,7 +15,7 @@ public class Stream {
 
         java.util.stream.Stream<String> st2 = java.util.stream.Stream.of("Arthur", "fabio", "roger");
 
-        java.util.stream.Stream<Integer> st3 = java.util.stream.Stream.iterate(0, x -> x + 2);  //infinite
+        java.util.stream.Stream<Integer> st3 = java.util.stream.Stream.iterate(0, x -> x + 2);  //infinity
 
         System.out.println(Arrays.toString(st3.limit(10).toArray()));
 
