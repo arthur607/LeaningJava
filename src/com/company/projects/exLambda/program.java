@@ -18,8 +18,8 @@ public class program {
 
         double sum =  employees.stream()
                .filter(x -> x.getSalary() >= 4000.0 && x.getEmail().charAt(0) == 'b')
-               .map(p -> p.getSalary())     //buscando apenas o salário
-               .reduce(0.0, (x,y) -> x + y);
+               .map(p -> p.getSalary()) //buscando apenas o salário
+               .reduce(0.0, (x,y) -> x + y);     //somando os elementos filtrados
 
       List<String> order = employees.stream()
               .map(p -> p.getName())
@@ -28,7 +28,7 @@ public class program {
 
 
         order.forEach(System.out :: println);
-
+        System.out.println("-----------------------------");
         System.out.println("sum: "+sum);
 
     }
