@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Pessoa {
+public abstract class Pessoa {
     
     private String nome;
     private int idade;

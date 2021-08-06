@@ -10,6 +10,7 @@ Comprador arthur = new Comprador("arthur",18,531);
         List<Produto> produto = new ArrayList<Produto>();
 
         produto.add(new Produto("camisa",4,10.0,2));
+        produto.add(new Produto("tenis",4,10.0,12));
         arthur.comprarProduct(produto);
 
     }

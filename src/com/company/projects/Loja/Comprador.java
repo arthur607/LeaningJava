@@ -17,10 +17,15 @@ public class Comprador extends Pessoa {
     public void comprarProduct(List<Produto> p){
         Produto pr = new Produto();
         System.out.println("digite o produto que deseja comprar:");
-        pr.setNome(sc.nextLine());
-        if (p.contains(pr.getNome())){
-        p.stream().map(produto -> produto.getStock() -1 );
+        String prodNome = sc.nextLine();
+        for (Produto produto : p){
+            if (prodNome.equals(produto.getNome())){
+                produto.removeProduct();
+                System.out.println(produto.getStock());
+            }
+            else System.out.println("produto não encontrado");
+            System.out.println(produto.getStock());
         }
-        p.forEach(System.out :: println);
+
     }
 }
