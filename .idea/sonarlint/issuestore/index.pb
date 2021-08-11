@@ -13,3 +13,15 @@ g
 7src/com/company/GenericsSetMap/PrintServiceGeneric.java,0\7\07b413dbc3eed77b29df6caafbe6b1daf71e9299
 X
 (src/com/company/GenericsSetMap/Main.java,b\f\bf8cade3ccfc6bca073947d289914b2da1d2141b
+Y
+)src/com/company/Lambda/UpperCaseName.java,c\7\c7cf752243787ad20fdeb842bae333d348be25e8
+R
+"src/com/company/Lambda/Stream.java,e\4\e4ef07601c09501a1ab178a3c5df8285907b0f75
+^
+.src/com/company/projects/exLambda/program.java,6\3\63903c271b416b551f3150f28f4865974f8baf29
+_
+/src/com/company/projects/exLambda/Employee.java,9\f\9ffe4a851434ac073d3d96497c128bbc0dd2b0dd
+\
+,src/com/company/Lambda/ProductPredicate.java,1\5\1546ed4d22fd3353956f3988f7d73a81aefb132a
+S
+#src/com/company/Lambda/Product.java,5\4\54d41a96588b9262ced83e2a57756e0a9b0c461d
