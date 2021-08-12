@@ -25,3 +25,17 @@ _
 ,src/com/company/Lambda/ProductPredicate.java,1\5\1546ed4d22fd3353956f3988f7d73a81aefb132a
 S
 #src/com/company/Lambda/Product.java,5\4\54d41a96588b9262ced83e2a57756e0a9b0c461d
+P
+ src/com/company/Lambda/Main.java,1\6\16e5ad64867f78f894d2b609484fbe7650aff316
+T
+$src/com/company/Lambda/Consumer.java,3\5\35114fc0044674e0497d0e189c8a07af689a8ba0
+S
+#src/com/company/Lambda/Program.java,8\e\8ea0b3f8d522fca6db39c5f704ba2e7f891a881a
+Y
+)src/com/company/projects/Loja/Pessoa.java,b\6\b6f00f8781444963ed494bcfc14e0dc912a965cd
+W
+'src/com/company/projects/Loja/Main.java,b\8\b8bc20ba211e816d87c4921e206eb564d4d5f73c
+\
+,src/com/company/projects/Loja/Comprador.java,a\9\a93efe1ddc81c9f163c6d0c34a36a4415dffad30
+Z
+*src/com/company/projects/Loja/Produto.java,2\b\2b904756d3befdaf01347982d71d0b5dfa198465
