@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class UpperCaseName implements Function<Product, String>, Consumer<Product>   {    //recebeumproduct como argumenento e retorna uma String
+public class UpperCaseName implements Function<Product, String>, Consumer<Product>   {    //recebe um product como argumento e retorna uma String
 
     @Override
     public String apply(Product p) {

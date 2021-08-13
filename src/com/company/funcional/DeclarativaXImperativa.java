@@ -1,4 +1,4 @@
-package com.company.Lambda;
+package com.company.funcional;
 
 import java.util.Arrays;
 
